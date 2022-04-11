@@ -40,8 +40,105 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
 
-  <body>
+  <body class="bg-dark text-light">
+    <!-- Cabecera y barra de navegación-->
+    <header class="mb-5 pb-5">
+      <!-- Barra de Navegación -->
+      <div class="fixed-top bg-dark bg-opacity-25 container-fluid">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-transparent container"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#carrousel">
+              <img src="assets/img/viajes.svg" alt="boton viajes navbar" />
+              VIAJES CHILE</a
+            >
+            <button
+              class="navbar-toggler text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="text-end">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#destacado">Destacados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
 
+      <!-- Carrusel de Imágenes-->
+      <section id="carrousel">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/img/carousel1.jpg"
+                class="d-block w-100"
+                alt="alpacas del altiplano"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/carousel2.jpg"
+                class="d-block w-100"
+                alt="moai de rapa nui"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/carousel3.jpg"
+                class="d-block w-100"
+                alt="pingüino de humboldt"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
 
     <!-- ====  SCRIPTS  ==== -->
     <!-- JQuery CDN-->
@@ -70,7 +167,5 @@
       type="text/javascript"
       type="text/javascript"
     ></script>
-    
-    
   </body>
 </html>
