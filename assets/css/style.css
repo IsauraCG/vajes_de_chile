@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600&display=swap');
+
+/* Resetea los margenes y paddings del index.html y asigna una familia de fuente tipográfica a todo el documento*/
+* , body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/* Asigna la función de navegación suave "smooth scroll" al sitio */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Asigna tamaño limitado al icono del navbar */
+
+  .navbar-brand img {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+/*  asigna la función de justificar el texto a ambos lados, no incluída en bootstrap v 5.1 */
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Ajusta tamaño de las trajetas de contenido y asigna tamaño a las imágenes */
+
+.card img {
+    max-height: 10rem;
+    min-height: 3rem;
+}
+
+.card {
+    height: 30rem;
+} 
+
+.image-fit {
+    height: 30%;
+    overflow-y: hidden;
+}
+
+/* Asigna un tamaño y recorta el texto que se escede de ese tamaño para los párrafos de contenido de las trajetas destacadas */
+
+.card-body p{
+    overflow-y:hidden;
+    height: 12rem;
+}
+
+/* Remueve el color y decoración de los links */
+a {
+    text-decoration: none;
+}
