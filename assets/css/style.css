@@ -17,8 +17,7 @@ html {
 /* Asigna tamaño limitado al icono del navbar */
 
 .navbar-brand img {
-    height: 1.8rem;
-    width: 1.8rem;
+    height: 18;
 }
 
 /*  asigna la función de justificar el texto a ambos lados, no incluída en bootstrap v 5.1 */
