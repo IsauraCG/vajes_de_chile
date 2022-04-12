@@ -16,7 +16,7 @@ html {
 
 /* Asigna tamaño limitado al icono del navbar */
 
-  .navbar-brand img {
+.navbar-brand img {
     height: 1.8rem;
     width: 1.8rem;
 }
