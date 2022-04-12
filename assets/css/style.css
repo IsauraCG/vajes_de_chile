@@ -15,7 +15,9 @@ html {
   }
 
 /* Asigna tamaño limitado al icono del navbar */
-
+img.brand-img {
+    width: 26px;
+}
 
 /*  asigna la función de justificar el texto a ambos lados, no incluída en bootstrap v 5.1 */
 
